@@ -1,7 +1,6 @@
-
-.calculator{
+.calculator {
     margin-top: 10rem;
-    background-color: #097976;
+    background: linear-gradient(#e66465, #9198e5);
 }
 
 table {
@@ -13,7 +12,7 @@ table {
 input[type="button"] {
     width: 100%;
     padding: 20px 40px;
-    background-color: white;
+    /* background: linear-gradient(#e66465, #9198e5); */
     color: black;
     font-size: 24px;
     font-weight: bold;
@@ -22,8 +21,8 @@ input[type="button"] {
 }
 
 input[type="button"]:hover {
-    background-color: lightgray; 
-    color: black; 
+    background-color: lightgray;
+    color: black;
 }
 
 input[type="text"] {
